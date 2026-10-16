@@ -1,0 +1,11 @@
+supplier_id,name,country,region,lead_time_days,quality_ppm
+S01,Northwind Glass,Japan,APAC,35,85
+S02,Kestrel Semiconductors,Taiwan,APAC,70,900
+S03,Bluefin Batteries,South Korea,APAC,21,40
+S04,Orchard Precision Metals,China,APAC,56,40
+S05,Halcyon Optics,Germany,EMEA,35,450
+S06,Ridgeway Plastics,Mexico,AMER,21,450
+S07,Lumen Display Co.,South Korea,APAC,84,40
+S08,Copperline Interconnect,Vietnam,APAC,21,210
+S09,Atlas Sensors,United States,AMER,42,40
+S10,Meridian Packaging,India,APAC,28,40

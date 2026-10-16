@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplyline-mcp"
+version = "0.1.0"
+description = "An MCP server that lets AI agents answer supply chain questions with cited, read-only data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Saundarya Verma" }]
+dependencies = ["mcp>=1.9,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov", "anyio"]
+
+[project.scripts]
+supplyline-mcp = "supplyline.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = ["*/generate_data.py", "*/server.py"]  # server.py is tested end to end over stdio in test_server.py

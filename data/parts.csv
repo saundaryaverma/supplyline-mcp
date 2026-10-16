@@ -1,0 +1,20 @@
+part_id,name,category,unit_cost
+P100,"Cover glass, 6.1 in",Display,18.40
+P101,"OLED panel, 6.1 in",Display,74.00
+P102,Application processor,Silicon,96.50
+P103,Power management IC,Silicon,6.20
+P104,"Li-ion cell, 3,200 mAh",Battery,11.80
+P105,Aluminum enclosure,Mechanical,22.10
+P106,Camera lens stack,Optics,14.30
+P107,"Image sensor, 48 MP",Silicon,21.70
+P108,Flex cable set,Interconnect,3.40
+P109,Speaker module,Audio,2.90
+P110,Retail box and inserts,Packaging,1.60
+P111,"Micro-OLED panel, 1.3 in",Display,188.00
+P112,Pancake lens assembly,Optics,41.00
+P113,Depth sensor module,Silicon,29.50
+P114,Headband frame,Mechanical,9.80
+P115,"Li-ion cell, 4,800 mAh",Battery,16.40
+P116,Wrist sensor array,Silicon,12.60
+P117,"Sapphire crystal, 44 mm",Display,9.10
+P118,"Titanium case, 44 mm",Mechanical,31.00
